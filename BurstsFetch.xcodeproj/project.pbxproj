@@ -14,6 +14,8 @@
 		B6579FDE1D17553800131A62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6579FDC1D17553800131A62 /* LaunchScreen.storyboard */; };
 		B6579FE91D17553800131A62 /* BurstsFetchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6579FE81D17553800131A62 /* BurstsFetchTests.swift */; };
 		B6579FF41D17553800131A62 /* BurstsFetchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6579FF31D17553800131A62 /* BurstsFetchUITests.swift */; };
+		B657A0021D17647A00131A62 /* BurstsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B657A0011D17647A00131A62 /* BurstsManager.swift */; };
+		B657A0041D177A8800131A62 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = B657A0031D177A8800131A62 /* Common.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		B6579FEF1D17553800131A62 /* BurstsFetchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BurstsFetchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6579FF31D17553800131A62 /* BurstsFetchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurstsFetchUITests.swift; sourceTree = "<group>"; };
 		B6579FF51D17553800131A62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B657A0011D17647A00131A62 /* BurstsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BurstsManager.swift; sourceTree = "<group>"; };
+		B657A0031D177A8800131A62 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +103,12 @@
 			children = (
 				B6579FD31D17553800131A62 /* AppDelegate.swift */,
 				B6579FD51D17553800131A62 /* ViewController.swift */,
+				B657A0011D17647A00131A62 /* BurstsManager.swift */,
 				B6579FD71D17553800131A62 /* Main.storyboard */,
 				B6579FDA1D17553800131A62 /* Assets.xcassets */,
 				B6579FDC1D17553800131A62 /* LaunchScreen.storyboard */,
 				B6579FDF1D17553800131A62 /* Info.plist */,
+				B657A0031D177A8800131A62 /* Common.swift */,
 			);
 			path = BurstsFetch;
 			sourceTree = "<group>";
@@ -256,8 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B657A0041D177A8800131A62 /* Common.swift in Sources */,
 				B6579FD61D17553800131A62 /* ViewController.swift in Sources */,
 				B6579FD41D17553800131A62 /* AppDelegate.swift in Sources */,
+				B657A0021D17647A00131A62 /* BurstsManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
